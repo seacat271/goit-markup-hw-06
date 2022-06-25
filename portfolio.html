@@ -243,7 +243,8 @@
                       <a  class="social-link link" 
                           href="https://www.instagram.com" 
                           target="_blank" 
-                          rel="noreferer noopener">
+                          rel="noreferer noopener"
+                          aria-label="ссылка на Инстаграм">
                         <svg class="social-icon" width="20" height="20">
                           <use href="./images/svg/symbol-defs.svg#icon-instagram"></use>
                         </svg>
@@ -253,7 +254,8 @@
                       <a  class="social-link link" 
                           href="https://twitter.com" 
                           target="_blank" 
-                          rel="noreferer noopener">
+                          rel="noreferer noopener"
+                          aria-label="ссылка на Твиттер">
                         <svg class="social-icon" width="20" height="20">
                           <use href="./images/svg/symbol-defs.svg#icon-twitter" ></use>
                         </svg>
@@ -263,7 +265,8 @@
                       <a  class="social-link link" 
                           href="https://uk-ua.facebook.com" 
                           target="_blank" 
-                          rel="noreferer noopener">
+                          rel="noreferer noopener"
+                          aria-label="ссылка на Фейсбук">
                         <svg class="social-icon" width="20" height="20">
                           <use href="./images/svg/symbol-defs.svg#icon-facebook"></use>
                         </svg> 
@@ -273,7 +276,8 @@
                       <a  class="social-link link" 
                           href="https://www.linkedin.com" 
                           target="_blank" 
-                          rel="noreferer noopener">
+                          rel="noreferer noopener"
+                          aria-label="ссылка на Линкедин">
                         <svg class="social-icon" width="20" height="20">
                           <use href="./images/svg/symbol-defs.svg#icon-linkedin"></use>
                         </svg>
@@ -283,15 +287,20 @@
                 </div>
                 <div class="mail-container">
                   <b class="mail-title">Подпишитесь на рассылку</b>
-                  <form>
+                  <form class="footer-form">
                     <label class="footer-label" for="footer"></label>
                       <input 
                         class="footer-input"
+                        placeholder="E-mail"
                         id="footer" 
                         type="email" 
                         name="mail">
-                    
-                    <button class="button-submit button" type="submit">Подписаться</button>
+                    <button class="button-submit button" type="submit">
+                      <span>Подписаться</span>
+                      <svg class="icon-submit" width="24" height="24">
+                        <use href="./images/svg/icons.svg#icon-icon-send"></use>
+                      </svg>
+                    </button>
                   </form>
                 </div>
               </div>

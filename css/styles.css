@@ -482,13 +482,6 @@ text-align: center;
     margin-right: 10px;
 }
 
-
-
-
-/* .address-container {
-    margin-right: 70px;
-} */
-
 .active-container {
     padding-top: 12px;
     display: flex; 
@@ -511,16 +504,44 @@ text-align: center;
     background-color: var(--attention-color);
 }
 
-.mail
-
-
-.mail-container .button-submit::after {
-   margin-left: 10px;
-    width: 24px;
-    height: 24px;
-    content: '';
-    background-image: url(../images/svg/modal-icon/icon\ send.svg);
+.button-submit span {
+    margin-right: 10px;
 }
+
+.icon-submit {
+    text-align: center;
+    fill: currentColor;
+
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-input {
+    box-sizing: border-box;
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.3);;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+.footer-input::placeholder {
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .button-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Modal window */
 
@@ -654,10 +675,6 @@ color: var(--attention-color);
 .button-submit {
     width: 200px;
     height: 50px;
-
-    align-items: center;
-    justify-content: center;
-  
     color: var(--basic-background);
     background-color: var(--attention-color);
     font-weight: 700;
